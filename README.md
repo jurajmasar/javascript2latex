@@ -1,19 +1,23 @@
-== javascript2latex
+javascript2latex
+================
 
 Gem for creating LaTex expressions from JavaScript ones.
 
-= Example
+Example
+-------
 
 ```ruby
 Javascript2latex.make_tex("FV = PV*(Math.pow(1+r/100,n)-1)*(m/(r/100) + (1+m)/2)")
 # => "$FV=PV \\times ((1+\\frac{r}{100})^{n}-1) \\times (\\frac{m}{\\frac{r}{100}}+\\frac{1+m}{2})$"
 ```
 
-= Usage
+Usage
+-----
 
-See the tests in spec/javascript2latex_spec.rb
+See the tests in `spec/javascript2latex_spec.rb`.
 
-= Installation
+Installation
+------------
 
 You can add it to your Gemfile with:
 
@@ -27,7 +31,8 @@ Or you can install it directly:
 gem install javascript2latex
 ```
 
-= License
+License
+-------
 
 Copyright 2013 Juraj Masar. http://www.jurajmasar.com
 
